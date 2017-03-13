@@ -1,0 +1,103 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    /*outline: solid red 1px;*/
+}
+body{
+    margin-top: 50px;
+}
+header img{
+    border-radius:100%;
+}
+.name-maday p:first-child{
+    padding-top: 25px;
+    font-size: 40px;
+    color: #5C9396;
+}
+.name-maday p:last-child{
+    font-size: 20px;
+    color: rgba(11, 73, 77, 0.9);
+}
+header ul{
+    list-style: none; 
+    margin: 20px 0;
+    color: #5C9396;
+}
+header ul li{
+    display: inline-block;
+}
+header li>a{
+    color: #5C9396;    
+}
+header li a{
+    text-decoration: none;
+}
+header li>i{
+    color: #E4B89F;
+    padding: 0 10px;    
+}
+/*--------------Titulos-----------*/
+h2{
+    background-color: #5C9396;
+    color: #fff;
+    display: inline-block;
+    padding: 5px 20px;
+    border-radius: 10px;
+}
+/*------------End--Titulos-----------*/
+/*--------------section.about-me-----------*/
+section.about-me{
+    padding: 20px;    
+}
+/*------------End--section.about-me-----------*/
+
+/*--------------Educación-----------*/
+section.education{
+    padding: 20px;
+}
+section.education ul li{
+    outline: solid #5C9396 1px; 
+    width: 150px;
+    border-right: solid 5px #E65D15;
+}
+section.education ul li span{
+    background: #E65D15;
+    padding: 0 45px;
+}
+/*------------End--Educación-----------*/
+/*--------------Experencia----------*/
+section.experience{
+    padding: 0 45px;
+
+}
+section.experience ul{
+    list-style: none;
+    text-align: left;
+}
+section.experience i{
+    color: #E65D15;    
+}
+/*------------End--Experencia-----------*/
+/*--------------section.awards-----------*/
+section.awards{
+    padding: 20px;    
+}
+section.awards ul{
+    list-style: none;
+    text-align: left;
+}
+section.awards i{
+    color: #E65D15; 
+    font-size: 17px;
+}
+/*------------End--section.awards---------*/
+/*--------------section.languajes---------*/
+section.languajes{
+    padding: 20px;    
+}
+section.languajes ul{
+    list-style: none;
+    text-align: left;    
+}
+/*------------End--section.languajes---------*/
