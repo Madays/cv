@@ -78,6 +78,9 @@ section.experience ul{
 section.experience i{
     color: #E65D15;    
 }
+section.experience p{
+    display: inline;
+}
 /*------------End--Experencia-----------*/
 /*--------------section.awards-----------*/
 section.awards{
